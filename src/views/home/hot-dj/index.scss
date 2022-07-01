@@ -1,0 +1,12 @@
+.dj-img-border {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  &:hover .dj-img {
+    transform: scale(1.2,1.2);
+  }
+  .dj-img {
+    height: 150px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+.navigation-border {
+  width: 216px;
+  border: 1px #EEEEEE solid;
+  .navigation-align {
+    height: 36px;
+    width: 216px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    &:hover {
+      background-color: #C4EBFF;
+      cursor: pointer;
+      .navigation-text {
+        color: #00A9FF;
+      }
+    }
+    .navigation-img {
+      height: 16px;
+      width: 16px;
+      background-color: #C4EBFF;
+    }
+    .navigation-text {
+      padding: 0 12px;
+      white-space: nowrap;
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .active {
+    background-color: #C4EBFF;
+    cursor: pointer;
+    .navigation-text {
+      color: #00A9FF;
+    }
+  }
+}

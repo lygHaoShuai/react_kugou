@@ -1,0 +1,53 @@
+.playlists-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  .first-img-border {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    &:hover {
+      .first-child-img {
+        transform: scale(1.2,1.2);
+      }
+    }
+    .first-child-img {
+      width: 100%;
+      height: 310px;
+      cursor: pointer;
+    }
+  }
+  .last-child {
+    width: 288px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div {
+      width: 130px;
+    }
+    .last-img-border {
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      &:hover {
+        .last-child-img {
+          transform: scale(1.2,1.2);
+        }
+      }
+      .last-child-img {
+        height: 130px;
+        cursor: pointer;
+      }
+    }
+    .last-child-text {
+      height: 40px;
+      font-size: 13px;
+      cursor: pointer;
+      overflow: hidden;//超出隐藏
+      text-overflow: ellipsis;//超出文本设置为...
+      display:-webkit-box;//将div1转换为盒子模型
+      -webkit-line-clamp: 2;//设置div1的文本为2行
+      -webkit-box-orient: vertical;//从顶部向底部垂直布置子元素
+    }
+  }
+}

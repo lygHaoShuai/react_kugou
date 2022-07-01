@@ -1,0 +1,23 @@
+
+.singer-lyric {
+  height: 300px;
+  overflow-y: scroll;
+  margin-top: 20px;
+  .lyric-item {
+    height: 34px;
+    width: 420px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .list-border {
+    .song-list-style {
+
+    }
+  }
+}
+

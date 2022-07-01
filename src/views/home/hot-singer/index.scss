@@ -1,0 +1,38 @@
+.singer-all {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  .title {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: default;
+  }
+  .pitch {
+    background: rgba(0, 169, 255, 0.1);
+    border-radius: 20px;
+    color: #00A9FF;
+    cursor: pointer;
+  }
+  .all {
+    cursor: pointer;
+    &:hover {
+      color: #00A9FF;
+    }
+  }
+}
+
+.img-border {
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  .singer-img {
+    width: 100%;
+    height: 140px;
+    &:hover {
+      transform: scale(1.2,1.2);
+    }
+  }
+}

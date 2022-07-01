@@ -1,0 +1,79 @@
+
+.play-bottom {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    margin: 0 15px;
+  }
+  .last {
+    width: 36px;
+    height: 38px;
+    border-radius: 50%;
+    background-image: url("../../../assets/btn.png");
+    background-repeat: no-repeat;
+    background-position: 0 -143px;
+  }
+  .play {
+    width: 58px;
+    height: 53px;
+    border-radius: 50%;
+    background-image: url("../../../assets/btn.png");
+    background-repeat: no-repeat;
+    background-position: 0px -5px;
+  }
+  .next {
+    width: 36px;
+    height: 38px;
+    border-radius: 50%;
+    background-image: url("../../../assets/btn.png");
+    background-repeat: no-repeat;
+    background-position: -180px -143px;
+  }
+  .img {
+    width: 60px;
+    height: 60px;
+    background-color: #00A9FF;
+  }
+  .time {
+    width: 372px;
+  }
+  .voice {
+    width: 20px;
+    height: 14px;
+    border-radius: 50%;
+    background-image: url("../../../assets/btn.png");
+    background-repeat: no-repeat;
+    background-position: 4px -196px;
+  }
+  .circulation {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url("../../../assets/btn.png");
+    background-repeat: no-repeat;
+    background-position: -60px -177px;
+  }
+  .download {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: url("../../../assets/btn.png");
+    background-repeat: no-repeat;
+    background-position: -235px -31px;
+  }
+  .list {
+    width: 69px;
+    height: 25px;
+    border-radius: 20%;
+    background-image: url("../../../assets/btn.png");
+    background-repeat: no-repeat;
+    background-position: 9px -118px;
+    position: relative;
+    color: #E46E62;
+    box-sizing: border-box;
+    cursor: default;
+  }
+
+}

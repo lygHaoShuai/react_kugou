@@ -1,0 +1,38 @@
+.charts-content {
+  height: 362px;
+  .charts-class:first-child {
+    margin-top: unset;
+  }
+  .charts-class {
+    height: 110px;
+    display: flex;
+    margin-top: 16px;
+    background: rgba(177, 179, 185, 0.04);
+    .charts-img-border {
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      &:hover {
+        .charts-img {
+          transform: scale(1.2,1.2);
+        }
+      }
+      .charts-img {
+        width: 110px;
+      }
+    }
+    .charts-text {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+      .charts-song {
+        width: 195px;
+        margin-top: 2px;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.content-border-song {
+  height: 123px;
+  border-bottom: 1px #dddddd solid;
+  display: flex;
+  justify-content: space-between;
+  .content-img {
+    width: 108px;
+    height: 110px;
+  }
+  .content-text {
+    width: 650px;
+    height: 110px;
+    .text-name {
+      height: 18px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .text-lecture {
+      height: 37px;
+      margin: 19px 13px 6px 0;
+      font-size: 12px;
+      overflow-y: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      color: #999;
+    }
+    .button {
+      background-color: #169af3;
+      width: 90px;
+      border: unset;
+      color: #ffffff;
+      height: 30px;
+    }
+  }
+}

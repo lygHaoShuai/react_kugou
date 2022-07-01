@@ -1,0 +1,21 @@
+.child-all {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  .title {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: default;
+  }
+  .all {
+    color: #909090;
+    font-size: 14px;
+    &:hover {
+      color: #4DC2FF;
+      cursor: pointer;
+    }
+  }
+}
